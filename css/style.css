@@ -1,0 +1,403 @@
+/*
+Theme Name: Mazda
+Theme URI: http://geometry.com.co/
+Description: Tema realizado para Cotto USA
+Version: 1.0 
+Author: Geometry Global
+Author URI: http://geometry.com.co/
+License: GNU General Public License v2.0
+*/
+/*Colores*/
+@font-face {
+  font-family: "HelveticaNeueLTStdLt6";
+  src: url('../fonts/helvetica/HelveticaNeueLTStdLt6.eot?1462999690');
+  src: url('../fonts/helvetica/HelveticaNeueLTStdLt6.eot?&1462999690#iefix') format('embedded-opentype'), url('../fonts/helvetica/HelveticaNeueLTStdLt6.woff?1462999692') format('woff'), url('../fonts/helvetica/HelveticaNeueLTStdLt6.ttf?1462999690') format('truetype'), url('../fonts/helvetica/HelveticaNeueLTStdLt6.svg?1462999690#interstate_bold') format('svg');
+}
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background-color: #01360f;
+  color: #fff;
+  font-size: 14px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.mtop20 {
+  margin-top: 20px;
+}
+
+.mright40 {
+  margin-right: 40px;
+}
+
+p, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.border {
+  border: 1px solid #f00;
+}
+
+.border_lef {
+  border-left: 1px solid #243670;
+}
+
+.left {
+  float: left;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+#flake {
+  color: #fff !important;
+}
+
+/*------ Clear Fix ------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+.content {
+  width: 961px;
+  height: 814px;
+  margin: 0 auto;
+  background-image: url(../images/fondo.png);
+  background-position: center;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content {
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/fondo_mobile.png);
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .content {
+    width: 95%;
+  }
+}
+.content .header {
+  width: 100%;
+  height: 56px;
+  padding-top: 44px;
+  float: left;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .header {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+  }
+}
+.content .header .logo_emi {
+  background-image: url(../images/logo_emi.png);
+  width: 154px;
+  height: 57px;
+  display: inline-block;
+  font-size: 0px;
+  float: left;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .header .logo_emi {
+    display: none;
+  }
+}
+.content .header .logo_falck {
+  float: right;
+  background-image: url(../images/logo_falck.png);
+  width: 55px;
+  height: 19px;
+  display: inline-block;
+  font-size: 0px;
+  margin-top: 19px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .header .logo_falck {
+    display: none;
+  }
+}
+.content .header .logo_mobile {
+  display: none;
+  background-image: url(../images/logo_mobile.png);
+  width: 154px;
+  height: 78px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .header .logo_mobile {
+    display: inline-block;
+    font-size: 0px;
+  }
+}
+.content .cont_arbol {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol {
+    margin-top: 20px;
+  }
+}
+.content .cont_arbol .arbol {
+  background-image: url(../images/cable.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 570px;
+  display: inline-block;
+  text-align: center;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol {
+    background-image: url(../images/cable_mobile.png);
+    width: 280px;
+    height: 430px;
+  }
+}
+.content .cont_arbol .arbol img {
+  float: left;
+}
+.content .cont_arbol .arbol img.img_enc {
+  display: none;
+}
+.content .cont_arbol .arbol .start {
+  position: absolute;
+  margin-left: 167px;
+  width: 64px;
+  height: 60px;
+  float: left;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .start {
+    width: 50px;
+    height: 46px;
+    margin-left: 115px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .start img {
+    width: 50px;
+  }
+}
+.content .cont_arbol .arbol .frase_1 {
+  position: absolute;
+  width: 242px;
+  height: 424px;
+  float: left;
+  margin-left: 167px;
+  margin-top: 75px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_1 {
+    width: 187px;
+    height: 325px;
+    margin-left: 115px;
+    margin-top: 47px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_1 img {
+    width: 187px;
+  }
+}
+.content .cont_arbol .arbol .frase_2 {
+  position: absolute;
+  width: 146px;
+  height: 232px;
+  float: left;
+  margin-left: 221px;
+  margin-top: 176px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_2 {
+    width: 117px;
+    height: 181px;
+    margin-left: 152px;
+    margin-top: 131px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_2 img {
+    width: 117px;
+  }
+}
+.content .cont_arbol .arbol .frase_3 {
+  position: absolute;
+  width: 146px;
+  height: 232px;
+  float: left;
+  margin-left: 63px;
+  margin-top: 193px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_3 {
+    width: 149px;
+    height: 225px;
+    margin-left: 35px;
+    margin-top: 136px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_3 img {
+    width: 149px;
+  }
+}
+.content .cont_arbol .arbol .frase_4 {
+  position: absolute;
+  width: 146px;
+  height: 232px;
+  float: left;
+  margin-top: 424px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_4 {
+    width: 108px;
+    height: 57px;
+    margin-top: 320px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_4 img {
+    width: 108px;
+  }
+}
+.content .cont_arbol .arbol .frase_5 {
+  position: absolute;
+  width: 146px;
+  height: 232px;
+  float: left;
+  margin-left: 98px;
+  margin-top: 498px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_5 {
+    width: 166px;
+    height: 85px;
+    margin-top: 373px;
+    margin-left: 62px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .cont_arbol .arbol .frase_5 img {
+    width: 166px;
+  }
+}
+.content .frase_final {
+  text-align: center;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .frase_final {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .frase_final .destock {
+    display: none;
+  }
+}
+.content .frase_final .mobile {
+  display: none;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .content .frase_final .mobile {
+    display: inline-block;
+  }
+}
+
+.compartir {
+  border-top: #85ac49 1px solid;
+  background-color: #024615;
+  width: 100%;
+  height: 244px;
+  float: left;
+  text-align: center;
+  font-family: "HelveticaNeueLTStdLt6";
+  color: #ffff8c;
+  font-size: 16px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .compartir {
+    font-size: 12px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+.compartir .redes {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.compartir .redes a {
+  display: inline-block;
+  width: 78px;
+  height: 79px;
+  font-size: 0px;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .compartir .redes a {
+    width: 60px;
+    height: 60px;
+  }
+}
+.compartir .redes a.facebook {
+  background-image: url(../images/compartir_facebook.png);
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .compartir .redes a.facebook {
+    background-size: 60px;
+  }
+}
+.compartir .redes a.whatsapp {
+  background-image: url(../images/compartir_whatsapp.png);
+  margin-left: 20px;
+  margin-right: 20px;
+  display: none;
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .compartir .redes a.whatsapp {
+    background-size: 60px;
+    display: inline-block;
+  }
+}
+.compartir .redes a.twitter {
+  background-image: url(../images/compartir_twitter.png);
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  .compartir .redes a.twitter {
+    background-size: 60px;
+  }
+}
